@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>UK Grocery Price Comparison - Save Money on Weekly Shopping</title>
+    <meta name="description" content="Compare grocery prices across Tesco, ASDA, Sainsbury's, Morrisons, Lidl, and Aldi. Find the best deals and save money on your weekly shopping with real-time price comparisons." />
+    <meta name="keywords" content="UK grocery prices, supermarket comparison, Tesco prices, ASDA deals, Sainsbury's offers, Morrisons shopping, Lidl prices, Aldi bargains, price comparison, grocery deals" />
+    <meta name="author" content="UK Price Compare" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-domain.com" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="UK Grocery Price Comparison - Save Money on Weekly Shopping" />
+    <meta property="og:description" content="Compare grocery prices across major UK supermarkets and save money on your weekly shopping." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="UK Price Compare" />
+    <meta property="og:locale" content="en_GB" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UK Grocery Price Comparison" />
+    <meta name="twitter:description" content="Compare grocery prices across major UK supermarkets and save money." />
+    <meta name="twitter:image" content="/twitter-card.jpg" />
+    <meta name="twitter:site" content="@ukpricecompare" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="UK Price Compare" />
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://images.pexels.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "UK Grocery Price Comparison",
+      "description": "Compare grocery prices across major UK supermarkets including Tesco, ASDA, Sainsbury's, Morrisons, Lidl, and Aldi",
+      "url": "https://your-domain.com",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "GBP"
+      },
+      "featureList": [
+        "Real-time price comparison",
+        "Shopping list management",
+        "Price history charts",
+        "Deal alerts",
+        "Store locator"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "geographicArea": {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
