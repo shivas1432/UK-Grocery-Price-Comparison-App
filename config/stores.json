@@ -1,0 +1,34 @@
+﻿{
+  "uk_stores": {
+    "tesco": {
+      "name": "Tesco",
+      "api_endpoint": "https://api.tesco.com/grocery/products",
+      "logo": "tesco-logo.png",
+      "delivery_areas": ["england", "scotland", "wales"],
+      "min_order": 25.00
+    },
+    "sainsburys": {
+      "name": "Sainsbury's",
+      "api_endpoint": "https://api.sainsburys.co.uk/products",
+      "logo": "sainsburys-logo.png",
+      "delivery_areas": ["england", "scotland", "wales"],
+      "min_order": 40.00
+    },
+    "asda": {
+      "name": "ASDA",
+      "api_endpoint": "https://api.asda.com/grocery",
+      "logo": "asda-logo.png",
+      "delivery_areas": ["england", "scotland", "wales"],
+      "min_order": 30.00
+    },
+    "morrisons": {
+      "name": "Morrisons",
+      "api_endpoint": "https://api.morrisons.com/products",
+      "logo": "morrisons-logo.png",
+      "delivery_areas": ["england", "scotland"],
+      "min_order": 35.00
+    }
+  },
+  "update_frequency": "hourly",
+  "currency": "GBP"
+}
