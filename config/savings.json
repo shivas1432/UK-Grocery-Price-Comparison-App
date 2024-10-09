@@ -1,0 +1,29 @@
+﻿{
+  "settings": {
+    "min_savings_threshold": 0.50,
+    "currency": "GBP",
+    "vat_rate": 0.20,
+    "delivery_cost_standard": 3.95,
+    "delivery_cost_express": 6.95
+  },
+  "alerts": {
+    "price_drop_percentage": 10,
+    "stock_alerts": true,
+    "deal_notifications": true,
+    "weekly_savings_report": true
+  },
+  "optimization_preferences": {
+    "prioritize_single_store": false,
+    "allow_substitutions": true,
+    "include_own_brand": true,
+    "max_delivery_slots": 3
+  },
+  "store_preferences": {
+    "preferred_stores": ["tesco", "sainsburys"],
+    "excluded_stores": [],
+    "loyalty_cards": {
+      "tesco_clubcard": true,
+      "sainsburys_nectar": true
+    }
+  }
+}
