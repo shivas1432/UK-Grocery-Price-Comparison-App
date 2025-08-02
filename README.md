@@ -5,15 +5,15 @@ A comprehensive, production-ready web application for comparing grocery prices a
 ## 📱 Live Demo & Screenshots
 
 ### 🖥️ Desktop Experience
-![Desktop Dashboard](1.png)
+![Desktop Dashboard](./1.png)
 *Main dashboard showing price comparisons across multiple UK supermarkets*
 
 ### 📊 Price Analytics
-![Price Charts](2.png)
+![Price Charts](./2.png)
 *Interactive price history charts and trend analysis*
 
 ### 🛒 Shopping Features
-![Shopping Lists](3.png)
+![Shopping Lists](./3.png)
 *Smart shopping list management with cost optimization*
 
 ---
