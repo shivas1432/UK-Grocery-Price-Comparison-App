@@ -2,6 +2,22 @@
 
 A comprehensive, production-ready web application for comparing grocery prices across major UK supermarkets including Tesco, ASDA, Sainsbury's, Morrisons, Lidl, and Aldi.
 
+## 📱 Live Demo & Screenshots
+
+### 🖥️ Desktop Experience
+![Desktop Dashboard](1.png)
+*Main dashboard showing price comparisons across multiple UK supermarkets*
+
+### 📊 Price Analytics
+![Price Charts](2.png)
+*Interactive price history charts and trend analysis*
+
+### 🛒 Shopping Features
+![Shopping Lists](3.png)
+*Smart shopping list management with cost optimization*
+
+---
+
 ## 🚀 Features
 
 ### Core Functionality
@@ -84,8 +100,8 @@ interface Product {
 ### Quick Start
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd uk-grocery-price-comparison
+git clone https://github.com/shivas1432/UK-Grocery-Price-Comparison-App.git
+cd UK-Grocery-Price-Comparison-App
 
 # Install dependencies
 npm install
@@ -285,4 +301,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Developed with ❤️ for the UK grocery shopping community**
+**🔗 Links**
+- **Live Demo**: [https://uk-grocery-comparison.netlify.app](https://uk-grocery-comparison.netlify.app)
+- **Repository**: [https://github.com/shivas1432/UK-Grocery-Price-Comparison-App](https://github.com/shivas1432/UK-Grocery-Price-Comparison-App)
+
+**Developed with ❤️ for the UK grocery shopping community by [Shivas1432](https://github.com/shivas1432)**
